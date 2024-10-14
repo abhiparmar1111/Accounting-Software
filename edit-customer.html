@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Edit Customer</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h2>Edit Customer</h2>
+        <form id="editCustomerForm">
+            <input type="hidden" id="customerId" name="customerId">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="editCustomerName">Customer Name</label>
+                    <input type="text" class="form-control" id="editCustomerName" name="customerName" placeholder="Customer Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="editLegalName">Legal Name</label>
+                    <input type="text" class="form-control" id="editLegalName" name="legalName" placeholder="Legal Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="editmobile">Mobile</label>
+                    <input type="tel" class="form-control" id="editmobile" name="mobile" placeholder="Mobile">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="editcontactPerson">Contact Person</label>
+                    <input type="text" class="form-control" id="editcontactPerson" name="contactPerson" placeholder="Contact Person">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="editemail">Email</label>
+                    <input type="email" class="form-control" id="editemail" name="email" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="editaddress1">Address Line 1</label>
+                    <input type="text" class="form-control" id="editaddress1" name="address1" placeholder="Address Line 1">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="editaddress2">Address Line 2</label>
+                    <input type="text" class="form-control" id="editaddress2" name="address2" placeholder="Address Line 2">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="editcity">City</label>
+                    <input type="text" class="form-control" id="editcity" name="city" placeholder="City">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="editstate">State</label>
+                    <input type="text" class="form-control" id="editstate" name="state" placeholder="State">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="editstateCode">State Code</label>
+                    <input type="text" class="form-control" id="editstateCode" name="statecode" placeholder="State Code">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="editpincode">Pincode</label>
+                    <input type="text" class="form-control" id="editpincode" name="pincode" placeholder="Pincode">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="editgst">GST</label>
+                    <input type="text" class="form-control" id="editgst" name="gst" placeholder="GST">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="editpan">PAN</label>
+                    <input type="text" class="form-control" id="editpan" name="pan" placeholder="PAN">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="editremark">Remark</label>
+                    <input type="text" class="form-control" id="editremark" name="remark" placeholder="Remark">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="editbankName">Bank Name</label>
+                    <input type="text" class="form-control" id="editbankName" name="bankName" placeholder="Bank Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="editaccountNo">Account No</label>
+                    <input type="text" class="form-control" id="editaccountNo" name="accountNo" placeholder="Account No">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="editifsc">IFSC Code</label>
+                    <input type="text" class="form-control" id="editifsc" name="ifscCode" placeholder="IFSC Code">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="editbalance">Balance</label>
+                <input type="number" class="form-control" id="editbalance" name="balance" placeholder="Balance">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src="express/customers.js"></script>
+    <script src="express/edit-customer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

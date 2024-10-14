@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard | AccViz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc."/>
+    <meta name="author" content="Zoyothemes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+    <!-- Icons -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Customer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+<!-- body start -->
+<body data-menu-color="dark" data-sidebar="default">
+<div id="app-layout">
+
+    <!-- Left Sidebar Start -->
+    <div class="app-sidebar-menu">
+        <div class="h-100" data-simplebar>
+
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+
+                <div class="logo-box">
+                    <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-light.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="24">
+                        </span>
+                    </a>
+                    <a href="index.html" class="logo logo-dark">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-dark.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-dark.png" alt="" height="24">
+                        </span>
+                    </a>
+                </div>
+
+                <ul id="side-menu">
+
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i data-feather="home"></i>
+                            <span> Dashboard </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarInvoice" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> Invoice </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarInvoice">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="create-invoice.html">Create Invoice</a>
+                                </li>
+                                <li>
+                                    <a href="view-invoice.html">View Invoice</a>
+                                </li>
+                                <li>
+                                    <a href="e-invoice.html">e-Invoice</a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarEway" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> E-Way </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarEway">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="new-eway.html">Create E-Way Bill</a>
+                                </li>
+                                <li>
+                                    <a href="view-eway.html">View E-Way Bills</a>
+                                </li>                   
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarGST" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> GST </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarGST">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="file-gst.html">File GST</a>
+                                </li>
+                                <li>
+                                    <a href="view-gst-report.html">View GST Report</a>
+                                </li>                   
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarAccounting" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> Accounting </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarAccounting">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="ledger.html">Ledger</a>
+                                </li>
+                                <li>
+                                    <a href="trial-balance.html">Trial Balance</a>
+                                </li>
+                                <li>
+                                    <a href="balance-sheet.html">Balance Sheet</a>
+                                </li>               
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarMaster" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> Master </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarMaster">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="customer-list.html">Customer</a>
+                                </li>
+                                <li>
+                                    <a href="view-particulars.html">Particulars</a>
+                                </li>
+                                <li>
+                                    <a href="view-users.html">Users</a>
+                                </li>                 
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#sidebarReports" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> Reports </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarReports">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="financial-reports.html">Financial Reports</a>
+                                </li>
+                                <li>
+                                    <a href="sales-reports.html">Sales Reports</a>
+                                </li>   
+                                <li>
+                                    <a href="purchase-reports.html">Purchase Reports</a>
+                                </li>                
+                            </ul>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <a href="#sidebarSettings" data-bs-toggle="collapse">
+                            <i data-feather="file-text"></i>
+                            <span> Settings </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarSettings">
+                            <ul class="nav-second-level">
+                                <li>
+                                    <a href="profile.html">Profile</a>
+                                </li>
+                                <li>
+                                    <a href="company-details.html">Company Details</a>
+                                </li>   
+                                <li>
+                                    <a href="preferences.html">Preferences</a>
+                                </li>                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- End Sidebar -->
+
+            <div class="clearfix"></div>
+
+        </div>
+    </div>
+    <!-- Left Sidebar End -->
+
+    <body class="bg-gray-100 py-8">
+        <div class="container mx-auto max-w-md bg-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-center text-2xl font-bold mb-6">Customer Details</h1>
+            <div id="customer-details" class="space-y-4">
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Name:</strong> <span
+                        id="viewCustomerName" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Mobile:</strong> <span
+                        id="viewMobile" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Email:</strong> <span
+                        id="viewEmail" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Address:</strong> <span
+                        id="viewAddress1" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">City:</strong> <span
+                        id="viewCity" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">State:</strong> <span
+                        id="viewState" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Pincode:</strong> <span
+                        id="viewPincode" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">GST:</strong> <span id="viewGst"
+                        class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">PAN:</strong> <span id="viewPan"
+                        class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Bank Name:</strong> <span
+                        id="viewBankName" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Account No:</strong> <span
+                        id="viewAccountNo" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">IFSC:</strong> <span
+                        id="viewIfsc" class="font-normal"></span></div>
+                <div class="customer-detail"><strong class="inline-block min-w-[150px]">Balance:</strong> <span
+                        id="viewBalance" class="font-normal"></span></div>
+            </div>
+            <div class="text-center mt-6">
+                <a href="customer-list.html"
+                    class="btn btn-primary bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Back to
+                    Customers</a>
+            </div>
+        </div>
+        <script src="express/view-customer.js"></script>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "accviz",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "datatables": "^1.10.18",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "tabulator": "^0.2.40"
+  }
+}

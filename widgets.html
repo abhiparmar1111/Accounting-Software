@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Widgets | AccViz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc."/>
+        <meta name="author" content="Zoyothemes"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+        <!-- Icons -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <!-- body start -->
+    <body data-menu-color="dark" data-sidebar="default">
+
+        <!-- Begin page -->
+        <div id="app-layout">
+
+
+            <!-- Topbar Start -->
+            <div class="topbar-custom">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between">
+                        <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+                            <li>
+                                <button class="button-toggle-menu nav-link">
+                                    <i data-feather="menu" class="noti-icon"></i>
+                                </button>
+                            </li>
+                            <li class="d-none d-lg-block">
+                                <div class="position-relative topbar-search">
+                                    <input type="text" class="form-control bg-light bg-opacity-75 border-light ps-4" placeholder="Search...">
+                                    <i class="mdi mdi-magnify fs-16 position-absolute text-muted top-50 translate-middle-y ms-2"></i>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+                
+                            <li class="dropdown notification-list topbar-dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <i data-feather="bell" class="noti-icon"></i>
+                                    <span class="badge bg-danger rounded-circle noti-icon-badge">9</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end dropdown-lg">
+        
+                                    <!-- item-->
+                                    <div class="dropdown-item noti-title">
+                                        <h5 class="m-0">
+                                            <span class="float-end">
+                                                <a href="" class="text-dark">
+                                                    <small>Clear All</small>
+                                                </a>
+                                            </span>Notification
+                                        </h5>
+                                    </div>
+        
+                                    <div class="noti-scroll" data-simplebar>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary active">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-12.jpg" class="img-fluid rounded-circle" alt="" />
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Carl Steadham</p>
+                                                <small class="text-muted">5 min ago</small>
+                                            </div>
+                                            <p class="mb-0 user-msg">
+                                                <small class="fs-14">Completed <span class="text-reset">Improve workflow in Figma</span></small>
+                                            </p>
+                                        </a>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-2.jpg" class="img-fluid rounded-circle" alt="" />
+                                            </div>
+                                            <div class="notify-content">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="notify-details">Olivia McGuire</p>
+                                                    <small class="text-muted">1 min ago</small>
+                                                </div>
+                                                <p class="mb-1 user-msg">
+                                                    <small class="fs-14">Added file to <span class="text-reset text-truncate">Create dark mode for our iOS</span></small>
+                                                </p>
+
+                                                <div class="d-flex mt-2 align-items-center">
+                                                    <div class="notify-sub-icon">
+                                                        <i class="mdi mdi-download-box text-dark"></i>
+                                                    </div>
+
+                                                    <div>
+                                                        <p class="notify-details mb-0">dark-themes.zip</p>
+                                                        <small class="text-muted">2.4 MB</small>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-3.jpg" class="img-fluid rounded-circle" alt="" /> 
+                                            </div>
+                                            <div class="notify-content">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="notify-details">Travis Williams</p>
+                                                    <small class="text-muted">7 min ago</small>
+                                                </div>
+                                                <p class="mb-1 user-msg">
+                                                    <small class="fs-14">Mentioned you in the <span class="text-reset text-truncate">Rewrite text-button</span></small>
+                                                </p>
+                                                <p class="noti-mentioned p-2 rounded-2 mb-0 mt-2"><span class="text-primary">@Patryk</span> Please make sure that you're....</p>
+                                            </div>
+                                        </a>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-8.jpg" class="img-fluid rounded-circle" alt="" />
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Violette Lasky</p>
+                                                <small class="text-muted">5 min ago</small>
+                                            </div>
+                                            <p class="mb-0 user-msg">
+                                                <small class="fs-14">Completed <span class="text-reset">Create new components</span></small>
+                                            </p>
+                                        </a>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-5.jpg" class="img-fluid rounded-circle" alt="" />
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Ralph Edwards</p>
+                                                <small class="text-muted">5 min ago</small>
+                                            </div>
+                                            <p class="mb-0 user-msg">
+                                                <small class="fs-14">Completed <span class="text-reset">Improve workflow in React</span></small>
+                                            </p>
+                                        </a>
+        
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                            <div class="notify-icon">
+                                                <img src="assets/images/users/user-6.jpg" class="img-fluid rounded-circle" alt="" /> 
+                                            </div>
+                                            <div class="notify-content">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <p class="notify-details">Jocab jones</p>
+                                                    <small class="text-muted">7 min ago</small>
+                                                </div>
+                                                <p class="mb-1 user-msg">
+                                                    <small class="fs-14">Mentioned you in the <span class="text-reset text-truncate">Rewrite text-button</span></small>
+                                                </p>
+                                                <p class="noti-mentioned p-2 rounded-2 mb-0 mt-2"><span class="text-reset">@Patryk</span> Please make sure that you're....</p>
+                                            </div>
+                                        </a>
+                                    </div>
+        
+                                    <!-- All-->
+                                    <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                        View all
+                                        <i class="fe-arrow-right"></i>
+                                    </a>
+        
+                                </div>
+                            </li>
+        
+                            <li class="dropdown notification-list topbar-dropdown">
+                                <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <img src="assets/images/users/user-11.jpg" alt="user-image" class="rounded-circle">
+                                    <span class="pro-user-name ms-1">
+                                        Christian <i class="mdi mdi-chevron-down"></i> 
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                    </div>
+        
+                                    <!-- item-->
+                                    <a href="pages-profile.html" class="dropdown-item notify-item">
+                                        <i class="mdi mdi-account-circle-outline fs-16 align-middle"></i>
+                                        <span>My Account</span>
+                                    </a>
+        
+                                    <!-- item-->
+                                    <a href="auth-lock-screen.html" class="dropdown-item notify-item">
+                                        <i class="mdi mdi-lock-outline fs-16 align-middle"></i>
+                                        <span>Lock Screen</span>
+                                    </a>
+        
+                                    <div class="dropdown-divider"></div>
+        
+                                    <!-- item-->
+                                    <a href="auth-logout.html" class="dropdown-item notify-item">
+                                        <i class="mdi mdi-location-exit fs-16 align-middle"></i>
+                                        <span>Logout</span>
+                                    </a>
+        
+                                </div>
+                            </li>
+        
+                        </ul>
+                    </div>
+
+                </div>
+               
+            </div>
+            <!-- end Topbar -->
+
+            <!-- Left Sidebar Start -->
+            <div class="app-sidebar-menu">
+                <div class="h-100" data-simplebar>
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+
+                        <div class="logo-box">
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-light.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-light.png" alt="" height="24">
+                                </span>
+                            </a>
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-dark.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-dark.png" alt="" height="24">
+                                </span>
+                            </a>
+                        </div>
+
+                        <ul id="side-menu">
+
+
+                            <li>
+                                <a href="dashboard.html">
+                                    <i data-feather="home"></i>
+                                    <span> Dashboard </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarInvoice" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> Invoice </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarInvoice">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="create-invoice.html">Create Invoice</a>
+                                        </li>
+                                        <li>
+                                            <a href="view-invoice.html">View Invoice</a>
+                                        </li>
+                                        <li>
+                                            <a href="e-invoice.html">e-Invoice</a>
+                                        </li>
+                            
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarEway" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> E-Way </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarEway">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="new-eway.html">Create E-Way Bill</a>
+                                        </li>
+                                        <li>
+                                            <a href="view-eway.html">View E-Way Bills</a>
+                                        </li>                   
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarGST" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> GST </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarGST">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="file-gst.html">File GST</a>
+                                        </li>
+                                        <li>
+                                            <a href="view-gst-report.html">View GST Report</a>
+                                        </li>                   
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarAccounting" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> Accounting </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarAccounting">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="ledger.html">Ledger</a>
+                                        </li>
+                                        <li>
+                                            <a href="trial-balance.html">Trial Balance</a>
+                                        </li>
+                                        <li>
+                                            <a href="balance-sheet.html">Balance Sheet</a>
+                                        </li>               
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarMaster" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> Master </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarMaster">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="customer-list.html">Customer</a>
+                                        </li>
+                                        <li>
+                                            <a href="view-particulars.html">Particulars</a>
+                                        </li>
+                                        <li>
+                                            <a href="view-users.html">Users</a>
+                                        </li>                 
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#sidebarReports" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> Reports </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarReports">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="financial-reports.html">Financial Reports</a>
+                                        </li>
+                                        <li>
+                                            <a href="sales-reports.html">Sales Reports</a>
+                                        </li>   
+                                        <li>
+                                            <a href="purchase-reports.html">Purchase Reports</a>
+                                        </li>                
+                                    </ul>
+                                </div>
+                            </li>
+                
+                            <li>
+                                <a href="#sidebarSettings" data-bs-toggle="collapse">
+                                    <i data-feather="file-text"></i>
+                                    <span> Settings </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <div class="collapse" id="sidebarSettings">
+                                    <ul class="nav-second-level">
+                                        <li>
+                                            <a href="profile.html">Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="company-details.html">Company Details</a>
+                                        </li>   
+                                        <li>
+                                            <a href="preferences.html">Preferences</a>
+                                        </li>                
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+            </div>
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+         
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-xxl">
+                        <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
+                            <div class="flex-grow-1">
+                                <h4 class="fs-18 fw-semibold m-0">Widgets</h4>
+                            </div>
+            
+                            <div class="text-end">
+                                <ol class="breadcrumb m-0 py-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Components</a></li>
+                                    <li class="breadcrumb-item active">Widgets</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <!-- start sales -->
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Sales</h5>
+                                            <div class="dropdown">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Today</a>
+                                                    <a class="dropdown-item" href="#">Yesterday</a>
+                                                    <a class="dropdown-item" href="#">Last 7 Days</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <h3 class="m-0 mb-3 fs-22">$3,127</h3>
+                                            <p class="text-muted mb-0">
+                                                <span class="text-success bg-success-subtle rounded-2 p-1 me-2">+ 3%</span>Last 7 Days
+                                            </p>
+                                            <div id="sale_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end sales -->
+                            
+                            <!-- start view -->
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">View</h5>
+                                            <div class="dropdown">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Today</a>
+                                                    <a class="dropdown-item" href="#">Yesterday</a>
+                                                    <a class="dropdown-item" href="#">Last 7 Days</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="justify-content-center">  
+                                            <h3 class="m-0 mb-3 fs-22">1,390</h3>
+                                            <p class="text-muted mb-0">
+                                                <span class="text-success bg-success-subtle rounded-2 p-1 me-2">+ 12%</span>Last 7 Days
+                                            </p>
+                                            <div id="view_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end view -->
+
+                            <!-- start new orders -->
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">New Orders</h5>
+                                            <div class="dropdown">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Today</a>
+                                                    <a class="dropdown-item" href="#">Yesterday</a>
+                                                    <a class="dropdown-item" href="#">Last 7 Days</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <h3 class="m-0 mb-3 fs-22">57,890</h3>
+                                            <p class="mb-0 text-muted">
+                                                <span class="text-danger bg-danger-subtle rounded-2 p-1 me-2">- 2.5%</span>Last 7 Days
+                                            </p>
+                                            <div id="order_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end New Orders -->
+
+                            <!-- start revenue -->
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Revenue</h5>
+                                            <div class="dropdown">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Today</a>
+                                                    <a class="dropdown-item" href="#">Yesterday</a>
+                                                    <a class="dropdown-item" href="#">Last 7 Days</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <h3 class="m-0 mb-3 fs-22">$12,390</h3>
+                                            <p class="mb-0 text-muted">
+                                                <span class="text-success bg-success-subtle rounded-2 p-1 me-2">+ 14%</span>Last 7 Days
+                                            </p>
+                                            <div id="revenue_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end revenue -->
+
+                        <div class="row">
+                            <div class="col-md-12 col-xl-8">
+                                
+                                <div class="row">
+                                    <!-- start saving goal -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <h5 class="card-title mb-0">Saving Goal</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="justify-content-center">
+                                                    <p class="mb-2 text-muted fs-13 fw-medium">Date from 1 - 12 April, 2024</p>
+                                                    <div id="saving_goal_chart" class="apex-charts"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end saving goal -->
+
+                                    <!-- start top country -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <h5 class="card-title mb-0">Top Country</h5>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <div class="justify-content-center">
+                                                    <small class="text-muted mb-1 fs-14 fw-medium">Visits</small>
+                                                    <div class="d-flex text-truncate mt-1">
+                                                        <h3 class="my-0 me-2 fs-22">2,942</h3>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">2,93% <i class="mdi mdi-arrow-up icons text-success"></i></small>
+                                                    </div>
+                                                    <hr></ht>
+                                                    <div class="d-flex text-truncate justify-content-between mb-2">
+                                                        <p class="text-muted mb-0 fw-medium">United Kindom</p>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">28%</small>
+                                                    </div>
+                                                    <div class="d-flex text-truncate justify-content-between mb-2">
+                                                        <p class="text-muted mb-0 fw-medium">Germany</p>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">17%</small>
+                                                    </div>
+                                                    <div class="d-flex text-truncate justify-content-between mb-2">
+                                                        <p class="text-muted fw-medium mb-0">Netherlands</p>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">13%</small>
+                                                    </div>
+                                                    <div class="d-flex text-truncate justify-content-between mb-2">
+                                                        <p class="text-muted fw-medium mb-0">Australia</p>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">35%</small>
+                                                    </div>
+                                                    <div class="d-flex text-truncate justify-content-between">
+                                                        <p class="text-muted fw-medium mb-0">Canada</p>
+                                                        <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">28%</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end top country -->
+                                    
+                                </div> <!-- end row -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-12 col-xl-4">
+                                <div class="row">
+
+                                    <!--start driving Car -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body widget-box">
+                                                <div class="widget-icon mb-2 bg-success-subtle">
+                                                    <i class="mdi mdi-car icons text-success"></i>
+                                                </div>
+                                                <p class="text-dark mb-1 fw-semibold">Driving Car</p>
+                                                <p class="mb-3 text-muted">$12,567 of 25,000</p>
+
+                                                <div class="progress progress-bar-alt-success progress-sm">
+                                                    <div class="progress-bar bg-success" role="progressbar"
+                                                         aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+                                                         style="width: 65%;">
+                                                        <span class="visually-hidden">65% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end card-body -->
+                                        </div> <!-- end card -->
+                                    </div> <!-- end col -->
+
+                                    <!--start House Saving -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body widget-box">
+                                                <div class="widget-icon mb-2 bg-danger-subtle">
+                                                    <i class="mdi mdi-home icons text-danger"></i>
+                                                </div>
+                                                <p class="text-dark mb-1 fw-semibold">House Saving</p>
+                                                <p class="mb-3 text-muted">$12,567 of 25,000</p>
+
+                                                <div class="progress progress-bar-alt-danger progress-sm">
+                                                    <div class="progress-bar bg-danger" role="progressbar"
+                                                         aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"
+                                                         style="width: 55%;">
+                                                        <span class="visually-hidden">55% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end card-body -->
+                                        </div> <!-- end card -->
+                                    </div> <!-- end col -->
+
+                                    <!--start Laptop -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body widget-box">
+                                                <div class="widget-icon mb-2 bg-secondary-subtle">
+                                                    <i class="mdi mdi-laptop icons text-secondary"></i>
+                                                </div>
+                                                <p class="text-dark mb-1 fw-semibold">Laptop</p>
+                                                <p class="mb-3 text-muted">$12,567 of 25,000</p>
+
+                                                <div class="progress progress-bar-alt-secondary progress-sm">
+                                                    <div class="progress-bar bg-secondary" role="progressbar"
+                                                         aria-valuenow="36" aria-valuemin="0" aria-valuemax="100"
+                                                         style="width: 36%;">
+                                                        <span class="visually-hidden">25% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end card-body -->
+                                        </div> <!-- end card -->
+                                    </div> <!-- end col -->
+
+                                    <!--start Motercycle -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body widget-box">
+                                                <div class="widget-icon mb-2 bg-primary-subtle">
+                                                    <i class="mdi mdi-bike icons text-primary"></i>
+                                                </div>
+                                                <p class="text-dark mb-1 fw-semibold">Motercycle</p>
+                                                <p class="mb-3 text-muted">$12,567 of 25,000</p>
+
+                                                <div class="progress progress-bar-alt-primary progress-sm">
+                                                    <div class="progress-bar bg-primary" role="progressbar"
+                                                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                         style="width: 60%;">
+                                                        <span class="visually-hidden">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end card-body -->
+                                        </div> <!-- end card -->
+                                    </div> <!-- end col -->
+                                </div> <!-- end row -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+
+                        <div class="row">
+                            <div class="col-md-12 col-xl-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <small class="float-end text-muted ps-2 fs-14 fw-medium">$5.99</small>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path fill="#1ed760" d="M128 0C57.308 0 0 57.309 0 128c0 70.696 57.309 128 128 128c70.697 0 128-57.304 128-128C256 57.314 198.697.007 127.998.007zm58.699 184.614c-2.293 3.76-7.215 4.952-10.975 2.644c-30.053-18.357-67.885-22.515-112.44-12.335a7.981 7.981 0 0 1-9.552-6.007a7.968 7.968 0 0 1 6-9.553c48.76-11.14 90.583-6.344 124.323 14.276c3.76 2.308 4.952 7.215 2.644 10.975m15.667-34.853c-2.89 4.695-9.034 6.178-13.726 3.289c-34.406-21.148-86.853-27.273-127.548-14.92c-5.278 1.594-10.852-1.38-12.454-6.649c-1.59-5.278 1.386-10.842 6.655-12.446c46.485-14.106 104.275-7.273 143.787 17.007c4.692 2.89 6.175 9.034 3.286 13.72zm1.345-36.293C162.457 88.964 94.394 86.71 55.007 98.666c-6.325 1.918-13.014-1.653-14.93-7.978c-1.917-6.328 1.65-13.012 7.98-14.935C93.27 62.027 168.434 64.68 215.929 92.876c5.702 3.376 7.566 10.724 4.188 16.405c-3.362 5.69-10.73 7.565-16.4 4.187z"/></svg>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3 text-truncate">
+                                                <h6 class="my-0 fw-medium text-dark fs-15">Spotify Subscription</h6>
+                                                <small class="text-muted fs-13 fw-medium mb-0">May 05, 2023</small>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card -->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <small class="float-end text-muted ps-2 fs-14 fw-medium">$12.88</small>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 180"><path fill="#f00" d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134"/><path fill="#fff" d="m102.421 128.06l66.328-38.418l-66.328-38.418z"/></svg>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3 text-truncate">
+                                                <h6 class="my-0 fw-medium text-dark fs-15">Youtube Subscription</h6>
+                                                <small class="text-muted fs-13 fw-medium mb-0">July 06, 2024</small>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card -->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <small class="float-end text-muted ps-2 fs-14 fw-medium">$15.00</small>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 284"><path fill="#f9ab00" d="M256.003 247.933a35.224 35.224 0 0 1-39.376 35.161c-18.044-2.67-31.266-18.371-30.826-36.606V36.845C185.365 18.591 198.62 2.881 216.687.24a35.221 35.221 0 0 1 39.316 35.16z"/><path fill="#e37400" d="M35.101 213.193c19.386 0 35.101 15.716 35.101 35.101c0 19.386-15.715 35.101-35.101 35.101S0 267.68 0 248.295c0-19.386 15.715-35.102 35.101-35.102m92.358-106.387c-19.477 1.068-34.59 17.406-34.137 36.908v94.285c0 25.588 11.259 41.122 27.755 44.433a35.161 35.161 0 0 0 42.146-34.56V142.089a35.222 35.222 0 0 0-35.764-35.282"/></svg>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3 text-truncate">
+                                                <h6 class="my-0 fw-medium text-dark fs-15">Google Analytics</h6>
+                                                <small class="text-muted fs-13 fw-medium mb-0">March 08, 2022</small>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card -->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <small class="float-end text-muted ps-2 fs-14 fw-medium">$8.88</small>
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><path fill="#ffc107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917"/><path fill="#ff3d00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691"/><path fill="#4caf50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44"/><path fill="#1976d2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917"/></svg>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3 text-truncate">
+                                                <h6 class="my-0 fw-medium text-dark fs-15">Google Workspace</h6>
+                                                <small class="text-muted fs-13 fw-medium mb-0">March 08, 2022</small>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-12 col-xl-8">
+                                <div class="card">
+
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Repeat Customer Rate</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <div class="d-flex text-truncate">
+                                                <h3 class="my-0 text-dark me-2 fs-22">4,679</h3>
+                                                <small class="text-success fs-14 fw-medium mb-0 justify-content-end align-content-end">3,78% <i class="mdi mdi-arrow-up icons text-success"></i></small>
+                                            </div>
+                                            <div id="repeat_customer_rate" class="apex-charts"></div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p class="text-muted mb-3 fw-semibold">Total Images</p>
+                                                <h4 class="m-0 mb-3 fs-18">45 GB Space</h4>
+                                                <p class="mb-0 text-muted">
+                                                    <span class="text-success me-2"><i class="mdi mdi-arrow-top-right text-success"></i> + 12%</span>last month
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="d-flex justify-content-center align-content-center">
+                                                    <div id="image_storage" class="me-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p class="text-muted mb-3 fw-semibold">View Video</p>
+                                                <h4 class="m-0 mb-3 fs-18">159 GB Space</h4>
+                                                <p class="mb-0 text-muted">
+                                                    <span class="text-danger me-2"><i class="mdi mdi-arrow-bottom-left text-danger"></i> - 25%</span>last month
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div id="video_storage" class="me-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p class="text-muted mb-3 fw-semibold">Listen Music</p>
+                                                <h4 class="m-0 mb-3 fs-18">258 GB Space</h4>
+                                                <p class="mb-0 text-muted">
+                                                    <span class="text-success me-2"><i class="mdi mdi-arrow-top-right text-success"></i> + 45%</span>last month
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div id="music_storage" class="me-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p class="text-muted mb-3 fw-semibold">Document File</p>
+                                                <h4 class="m-0 mb-3 fs-18">58 GB Space</h4>
+                                                <p class="mb-0 text-muted">
+                                                    <span class="text-success me-2"><i class="mdi mdi-arrow-top-right text-success"></i> + 25%</span>last month
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <div class="d-flex justify-content-center">
+                                                    <div id="document_storage" class="me-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+
+                        <div class="row">
+                            <div class="col-md-12 col-xl-8">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Transactions list</h5>
+                                            <div class="dropdown mx-0">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Last 28 Days</a>
+                                                    <a class="dropdown-item" href="#">Last Month</a>
+                                                    <a class="dropdown-item" href="#">Last Year</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+
+                                    <div class="card-body pt-0">
+                                        <div class="justify-content-center">
+                                            <div class="table-responsive card-table">
+                                                <table class="table align-middle table-nowrap mb-0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="avatar-sm bg-primary rounded p-1 me-3 align-items-center justify-content-center d-flex">
+                                                                        <i class="mdi mdi-home-outline fs-20 text-white"></i>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="fs-14 my-1">Noam Henson</h5>
+                                                                        <span class="text-muted">Rent</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">$29.00</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">03/01/2022</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">Auto. transfer</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-success-subtle rounded-5 px-3 py-2 text-success fs-13 fw-medium">Reconciled</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="avatar-sm bg-primary rounded p-1 me-3 align-items-center justify-content-center d-flex">
+                                                                        <i class="mdi mdi-cog-outline fs-20 text-white"></i>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="fs-14 my-1">Kyle Wermer</h5>
+                                                                        <span class="text-muted">Maintenance</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">$540</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">02/01/2022</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">Transfer</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-success-subtle rounded-5 px-3 py-2 text-success fs-13 fw-medium">Reconciled</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="avatar-sm bg-warning rounded p-1 me-3 align-items-center justify-content-center d-flex">
+                                                                        <i class="mdi mdi-arrow-top-right fs-20 text-white"></i>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="fs-14 my-1">Jenny Dubois</h5>
+                                                                        <span class="text-muted">Rent</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">$685</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">02/01/2022</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">Auto.transfer</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-warning-subtle rounded-5 px-3 py-2 text-warning fs-13 fw-medium">To reconcile</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="avatar-sm bg-primary rounded p-1 me-3 align-items-center justify-content-center d-flex">
+                                                                        <i class="mdi mdi-home-outline fs-20 text-white"></i>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="fs-14 my-1">Felipa Silva</h5>
+                                                                        <span class="text-muted">Rent</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">$920</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">02/01/2023</p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="fs-14 my-1 fw-normal">Auto.transfer</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-success-subtle rounded-5 px-3 py-2 text-success fs-13 fw-medium">Reconciled</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="border-0">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="avatar-sm bg-primary rounded p-1 me-3 align-items-center justify-content-center d-flex">
+                                                                        <i class="mdi mdi-arrow-top-right fs-20 text-white"></i>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="fs-14 my-1">Jenny Dubois</h5>
+                                                                        <span class="text-muted">Rent</span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="border-0">
+                                                                <p class="fs-14 my-1 fw-normal">$54</p>
+                                                            </td>
+                                                            <td class="border-0">
+                                                                <p class="fs-14 my-1 fw-normal">28/12/2023</p>
+                                                            </td>
+                                                            <td class="border-0">
+                                                                <p class="fs-14 my-1 fw-normal">Transfer</p>
+                                                            </td>
+                                                            <td class="text-end border-0">
+                                                                <span class="badge bg-success-subtle rounded-5 px-3 py-2 text-success fs-13 fw-medium">Reconciled</span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end cardbody -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+
+                            <div class="col-md-12 col-xl-4">
+                                <div class="card">
+                                    <div class="card-header border-0">
+                                        <div class="d-flex align-items-center">
+                                            <h5 class="card-title mb-0">Team Member</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body pt-0">
+
+                                        <div class="table-responsive">
+                                            <table class="table table-hover align-middle table-nowrap mb-0">
+                                                <thead class="table-light">
+                                                    <tr>
+                                                        <th class="py-2 border-0">Member</th>
+                                                        <th class="py-2 border-0">Hours</th>
+                                                        <th class="py-2 border-0">Status</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="d-flex align-items-center">
+                                                            <div class="avatar-md me-3 align-items-center justify-content-center d-flex">
+                                                                <img src="assets/images/users/user-11.jpg" class="img-fluid rounded-circle" alt="team image">
+                                                            </div>
+                                                            <div>
+                                                                <h5 class="fs-14 my-1">Taylor Miller</h5>
+                                                                <span class="text-muted">illustrator</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <p class="fs-14 my-1 fw-normal">120 hrs</p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="fs-14 my-1 fw-normal"> 45% </p>
+                                                            <div class="progress progress-bar-alt-warning progress-sm mt-0">
+                                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                                                    <span class="visually-hidden">45% Status</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="d-flex align-items-center">
+                                                            <div class="avatar-md me-3 align-items-center justify-content-center d-flex">
+                                                                <img src="assets/images/users/user-12.jpg" class="img-fluid rounded-circle" alt="team image">
+                                                            </div>
+                                                            <div>
+                                                                <h5 class="fs-14 my-1">Kelly Delmigo</h5>
+                                                                <span class="text-muted">Copywrite</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <p class="fs-14 my-1 fw-normal">150 hrs</p>
+                                                        </td>
+                                                        <td>
+                                                            <span class="fs-14 my-2 fw-normal d-block"> 55% </span>
+                                                            <div class="progress progress-bar-alt-success progress-sm mt-0">
+                                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                                                    <span class="visually-hidden">55% Status</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="d-flex align-items-center">
+                                                            <div class="avatar-md me-3 align-items-center justify-content-center d-flex">
+                                                                <img src="assets/images/users/user-13.jpg" class="img-fluid rounded-circle" alt="team image">
+                                                            </div>
+                                                            <div>
+                                                                <h5 class="fs-14 my-1">Andrew Lee</h5>
+                                                                <span class="text-muted">Product Designer</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <p class="fs-14 my-1 fw-normal">75 hrs</p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="fs-14 my-1 fw-normal"> 65% </p>
+                                                            <div class="progress progress-bar-alt-warning progress-sm mt-0">
+                                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                                                                    <span class="visually-hidden">65% Status</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="d-flex align-items-center border-0">
+                                                            <div class="avatar-md me-3 align-items-center justify-content-center d-flex">
+                                                                <img src="assets/images/users/user-14.jpg" class="img-fluid rounded-circle" alt="team image">
+                                                            </div>
+                                                            <div>
+                                                                <h5 class="fs-14 my-1">Ashley Smith</h5>
+                                                                <span class="text-muted">Product Expert</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="border-0">
+                                                            <p class="fs-14 my-1 fw-normal">85 hrs</p>
+                                                        </td>
+                                                        <td class="border-0">
+                                                            <p class="fs-14 my-1 fw-normal"> 85% </p>
+                                                            <div class="progress progress-bar-alt-secondary progress-sm mt-0">
+                                                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                                                    <span class="visually-hidden">85% Status</span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">My Card</h5>
+                                            <div class="dropdown mx-0">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Today</a>
+                                                    <a class="dropdown-item" href="#">Last Weekly</a>
+                                                    <a class="dropdown-item" href="#">Last Month</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="rounded-4 overflow-hidden debit-card p-4">
+                                            <div class="d-flex">
+                                                <div class="flex-grow-1 me-3">
+                                                    <p class="text-white fs-14 opacity-50 mb-1">Name</p>
+                                                    <h5 class="text-white">Alan Leath</h5>
+                                                </div>
+                                                <div class="flex-shrink-0">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                        <path fill="white" d="M15.273 18.728A6.728 6.728 0 1 1 22 11.999V12a6.735 6.735 0 0 1-6.727 6.728" opacity="0.5"/><path fill="white" d="M8.727 18.728A6.728 6.728 0 1 1 15.455 12a6.735 6.735 0 0 1-6.728 6.728"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h4 class="text-white my-3">**** **** **** 4451 9057</h4>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                                                    <path fill="#ff9800" d="M5 35V13c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v22c0 2.2-1.8 4-4 4H9c-2.2 0-4-1.8-4-4"/><path fill="#ffd54f" d="M43 21v-2H31c-1.1 0-2-.9-2-2s.9-2 2-2h1v-2h-1c-2.2 0-4 1.8-4 4s1.8 4 4 4h3v6h-3c-2.8 0-5 2.2-5 5s2.2 5 5 5h2v-2h-2c-1.7 0-3-1.3-3-3s1.3-3 3-3h12v-2h-7v-6zm-26 6h-3v-6h3c2.2 0 4-1.8 4-4s-1.8-4-4-4h-3v2h3c1.1 0 2 .9 2 2s-.9 2-2 2H5v2h7v6H5v2h12c1.7 0 3 1.3 3 3s-1.3 3-3 3h-2v2h2c2.8 0 5-2.2 5-5s-2.2-5-5-5"/>
+                                                </svg>
+                                            </div>
+                                            <div class="row justify-content-between">
+                                                <div class="col-auto">
+                                                    <p class="text-white fs-13 opacity-50 mb-1">VALID FROM</p>
+                                                    <h6 class="text-white mb-0">7/21</h6>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <p class="text-white fs-13 opacity-50 mb-1">EXP</p>
+                                                    <h6 class="text-white mb-0">7/28</h6>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <p class="text-white fs-13 opacity-50 mb-1">CVV</p>
+                                                    <h6 class="text-white mb-0">455</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-center d-flex justify-content-between mt-3 align-items-center">
+                                            <p class="text-muted mb-0">Total Balance</p>
+                                            <h3 class="mb-1 fs-22">$1600</h3>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Projects Progress</h5>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <div id="project_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-md-12 col-xl-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0">Audience Overview</h5>
+                                            <div class="dropdown mx-0">
+                                                <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="mdi mdi-dots-horizontal text-muted fs-20"></i>
+                                                </a>
+                                                <div class="dropdown-menu dropdown-menu-end">
+                                                    <a class="dropdown-item" href="#">Import</a>
+                                                    <a class="dropdown-item" href="#">Export</a>
+                                                    <a class="dropdown-item" href="#">Download</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body">
+                                        <div class="justify-content-center">
+                                            <div id="audience_chart" class="apex-charts"></div>
+                                        </div>
+                                    </div> <!-- end card body -->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+                    </div>
+                    <!-- container-fluid -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col fs-13 text-muted text-center">
+                                &copy; <script>document.write(new Date().getFullYear())</script> - Made with <span class="mdi mdi-heart text-danger"></span> by <a href="#!" class="text-reset fw-semibold">ADS Vizion</a> 
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Vendor -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+
+        <!-- Apexcharts JS -->
+        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+        <!-- for basic area chart -->
+        <script src="https://apexcharts.com/samples/assets/stock-prices.js"></script>
+
+        <!-- Widgets Init Js -->
+        <script src="assets/js/pages/widgets.init.js"></script>
+
+        <!-- App js-->
+        <script src="assets/js/app.js"></script>
+        
+    </body>
+</html>
